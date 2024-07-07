@@ -8,7 +8,7 @@ The scope of the final project for the ITF Manual Testing Course is to use all g
 
 Application under test: [**Automation Exercise**](https://www.automationexercise.com/) e-commerce website
 
-Automation Exercise este un site web destinat în special dezvoltatorilor și testerilor software care doresc să practice și să își îmbunătățească abilitățile de automatizare a testării, oferind un mediu controlat și variat pentru a simula diferite scenarii și a-și dezvolta abilitățile tehnice.
+Automation Exercise is a website specifically for software developers and testers who want to practice and improve their test automation skills, providing a controlled and varied environment to simulate different scenarios and develop their technical skills.
 
 Tools used: Jira, Zephyr Squad.
 
