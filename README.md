@@ -4,11 +4,11 @@ Testing Project for
 
 # Introduction:
 
-The scope of the final project for the ITF Manual Testing Course is to use all gained knowledge through the course and apply them in practice, using a live application.
+The scope of the final project for ITF Manual Testing Course is to use all gained knowledge through the course and apply it in practice, using a live application.
 
 Application under test: [**Automation Exercise**](https://www.automationexercise.com/) e-commerce website
 
-Automation Exercise is a website specifically for software developers and testers who want to practice and improve their test automation skills, providing a controlled and varied environment to simulate different scenarios and develop their technical skills.
+Automation Exercise este un site web destinat în special dezvoltatorilor și testerilor software care doresc să practice și să își îmbunătățească abilitățile de automatizare a testării, oferind un mediu controlat și variat pentru a simula diferite scenarii și a-și dezvolta abilitățile tehnice.
 
 Tools used: Jira, Zephyr Squad.
 
@@ -21,9 +21,9 @@ The below stories were created in Jira and describe the functional specification
 3.  Checkout process
 4.  Signup/Login
 
-Details can be found at LINK
+Details can be found at: LINK
 
-For this final project were runed tests from the following 2 modules:
+For this final project were run tests from the following 2 modules:
 
 -   Manage items in the shopping cart
 -   Signup/Login
@@ -38,7 +38,7 @@ Here you can find the release that was created for this project:
 
 # Testing process
 
-The test process was performed based on the standard test process described below.
+The test process was performed based on the standard test process as described below.
 
 ## 1.1 Test planning
 
@@ -134,7 +134,7 @@ The plan identifies the items to be tested, the features to be tested, the types
 |-----------------------------------------------------------------------------------------------|------------------|---------------------|-----------------------------------------|
 | Inability to correctly integrate test automation with existing infrastructure.                | 3                | 3                   | 9                                       |
 | Compatibility issues between different versions of the software used.                         | 3                | 2                   | 6                                       |
-| Missing deadlines due to the unexpected complexity of functionalities.                        | 4                | 3                   | 12                                      |
+| Missing deadlines due to the unexpected complexity of functionalities.                            | 4                | 3                   | 12                                      |
 | Frequent changes in client requirements that may affect project progress.                     | 3                | 3                   | 9                                       |
 | Insufficient or inadequate human resources for developing and testing automation.             | 4                | 2                   | 8                                       |
 | Lack of access to necessary hardware resources for load testing.                              | 3                | 3                   | 9                                       |
@@ -199,7 +199,7 @@ The plan identifies the items to be tested, the features to be tested, the types
 6.  **Risk:** Issues with sending registration confirmation emails.
     -   **Severity:** Medium
     -   **Probability:** Medium
-    -   **Mitigation Measures:** Implement a mechanism to monitor the sending of confirmation emails. Test email sent in a separate test environment.
+    -   **Mitigation Measures:** Implement a mechanism to monitor the sending of confirmation emails. Test email sending in a separate test environment.
 7.  **Risk:** Issues accessing the login page.
     -   **Severity:** Medium
     -   **Probability:** Medium
@@ -301,16 +301,16 @@ The list of all the test cases created, along with their results can be accessed
 
 ### Story 2: Cart Management
 
--   Verify that the cart display clearly communicates any changes in taxes or other additional charges (e.g., handling fees) that might be applied based on the cart content or the user's location.
+-   Verify that the cart display clearly communicates any changes in taxes or other additional charges (e.g., handling fees) that might be applied based on the cart content or user's location.
 -   Verify that the platform accurately reflects changes in shipping costs within the total price when the cart value falls below the threshold for free shipping offers.
 -   Verify that the cart total price is calculated accurately, considering both the updated quantities of items and any potential changes in their individual prices (e.g., due to variations or promotions).
 -   Verify that the cart total price updates dynamically and accurately whenever there are changes in item quantity or removal of items from the cart.
 -   Verify the platform's behavior when users choose to remove all items from the cart at once.
--   Verify that removing an item from the cart accurately updates the cart content and total price in real time.
+-   Verify that removing an item from the cart accurately updates the cart content and total price in real-time.
 -   Verify that the platform prompts users for confirmation before permanently removing an item from the cart.
 -   Verify that the shopping cart offers users clear and easily accessible options to remove unwanted items from the cart.
 -   Verify that the shopping cart provides appropriate validation messages when users attempt to enter invalid quantities for items (e.g., negative values, exceeding stock limits)
--   Verify that the options for modifying item quantities within the shopping cart function properly are accessible across different devices (desktop, mobile, tablet).
+-   Verify that the options for modifying item quantities within the shopping cart function properly and are accessible across different devices (desktop, mobile, tablet).
 -   Verify that changes made to the quantity of items using the provided options are reflected instantly and accurately in the cart display.
 -   Verify that the shopping cart offers users options to increase or decrease the quantity of each added item.
 -   Verify the platform's behavior when adding the same item multiple times to the cart, with different variations chosen for each addition
@@ -337,7 +337,7 @@ The list of all the test cases created, along with their results can be accessed
 -   Verify that the "Add to Cart" button (or similar button for adding items) is easily identifiable, clickable, and has a clear and concise label
 -   Verify that the "Add to Cart" button is present and functional on all product pages within the platform
 
-### Story 4: New User Registration & Account Management
+### Story 4: New User Registration & account management
 
 -   Verify that error messages are localized for different languages and consider accessibility needs (e.g., color contrast, screen reader compatibility)
 -   Verify that error messages not only identify the problem but also provide clear instructions or suggestions for users to resolve it
@@ -438,119 +438,119 @@ The following is a summary of the bugs that have been found for:
 #### Story 2: Managing Items in the Shopping Cart
 
 1.  **The platform doesn't provide a way of selecting quantities using the drop-down menu**
-    -   **Prioritate:** Medie
-    -   **Severitate:** Medie
+    -   **Priority:** Medium
+    -   **Severity:** Medium
 2.  **The platform doesn't offer users the option that should prevent selecting a quantity below the minimum limit**
-    -   **Prioritate:** Medie
-    -   **Severitate:** Medie
+    -   **Priority:** Medium
+    -   **Severity:** Medium
 3.  **The platform doesn't prevent users to enter a non-numeric character in the quantity input field**
-    -   **Prioritate:** Înaltă
-    -   **Severitate:** Înaltă
+    -   **Priority:** High
+    -   **Severity:** High
 4.  **The platform doesn't prevent submitting a negative number in the quantity input field**
-    -   **Prioritate:** Înaltă
-    -   **Severitate:** Înaltă
+    -   **Priority:** High
+    -   **Severity:** High
 5.  **The platform doesn't prevent submitting a value with decimals**
-    -   **Prioritate:** Înaltă
-    -   **Severitate:** Înaltă
+    -   **Priority:** High
+    -   **Severity:** High
 6.  **The cart icon/indicator doesn't reflect the addition of an item to the cart**
-    -   **Prioritate:** Înaltă
-    -   **Severitate:** Înaltă
+    -   **Priority:** High
+    -   **Severity:** High
 7.  **The cart icon/indicator doesn't display a small image or icon representing the added product**
-    -   **Prioritate:** Scăzută
-    -   **Severitate:** Scăzută
+    -   **Priority:** Low
+    -   **Severity:** Low
 8.  **The products on the platform don't have variations (color, size, etc.)**
-    -   **Prioritate:** Medie
-    -   **Severitate:** Medie
+    -   **Priority:** Medium
+    -   **Severity:** Medium
 9.  **The cart doesn't display a grand total price for all the items and quantities from it**
-    -   **Prioritate:** Înaltă
-    -   **Severitate:** Înaltă
+    -   **Priority:** High
+    -   **Severity:** High
 10. **The cart doesn't offer users the possibility to modify the quantity of the added item**
-    -   **Prioritate:** Înaltă
-    -   **Severitate:** Înaltă
+    -   **Priority:** High
+    -   **Severity:** High
 11. **The cart does not display any information about taxes or additional charges**
-    -   **Prioritate:** Înaltă
-    -   **Severitate:** Înaltă
+    -   **Priority:** High
+    -   **Severity:** High
 12. **The platform doesn't display a clear error message indicating that negative values are not allowed**
-    -   **Prioritate:** Înaltă
-    -   **Severitate:** Înaltă
+    -   **Priority:** High
+    -   **Severity:** High
 13. **The platform doesn't display a clear error message indicating that the chosen quantity is not available due to stock limitations**
-    -   **Prioritate:** Înaltă
-    -   **Severitate:** Înaltă
+    -   **Priority:** High
+    -   **Severity:** High
 14. **The platform doesn't prompt users for confirmation before permanently removing an item from the cart**
-    -   **Prioritate:** Medie
-    -   **Severitate:** Medie
+    -   **Priority:** Medium
+    -   **Severity:** Medium
 15. **The platform doesn't offer a dedicated "Remove All Items" or "Empty Cart" option**
-    -   **Prioritate:** Scăzută
-    -   **Severitate:** Scăzută
+    -   **Priority:** Low
+    -   **Severity:** Low
 16. **The platform doesn't have promotions or discounts that might affect individual item prices**
-    -   **Prioritate:** Medie
-    -   **Severitate:** Medie
+    -   **Priority:** Medium
+    -   **Severity:** Medium
 17. **The platform doesn't have a minimum cart value for free shipping**
-    -   **Prioritate:** Medie
-    -   **Severitate:** Medie
+    -   **Priority:** Medium
+    -   **Severity:** Medium
 
 #### Story 4: User Registration, Login & Account Management
 
 1.  **Password field doesn't have additional info**
-    -   **Prioritate:** Medie
-    -   **Severitate:** Medie
+    -   **Priority:** Medium
+    -   **Severity:** Medium
 2.  **Mobile Number field doesn't have additional format info**
-    -   **Prioritate:** Medie
-    -   **Severitate:** Medie
+    -   **Priority:** Medium
+    -   **Severity:** Medium
 3.  **Users cannot choose to view their password for confirmation purposes**
-    -   **Prioritate:** Scăzută
-    -   **Severitate:** Scăzută
+    -   **Priority:** Low
+    -   **Severity:** Low
 4.  **The platform accepts email addresses with obvious formatting errors or invalid symbols**
-    -   **Prioritate:** Înaltă
-    -   **Severitate:** Înaltă
+    -   **Priority:** High
+    -   **Severity:** High
 5.  **The platform allows users to create passwords that are too weak (e.g., short, lacking character variation)**
-    -   **Prioritate:** Înaltă
-    -   **Severitate:** Înaltă
+    -   **Priority:** High
+    -   **Severity:** High
 6.  **The platform doesn't display an error message regarding password complexity**
-    -   **Prioritate:** Înaltă
-    -   **Severitate:** Înaltă
+    -   **Priority:** High
+    -   **Severity:** High
 7.  **No confirmation email is sent after successful registration**
-    -   **Prioritate:** Medie
-    -   **Severitate:** Medie
+    -   **Priority:** Medium
+    -   **Severity:** Medium
 8.  **The login form doesn't offer a password visibility toggle**
-    -   **Prioritate:** Scăzută
-    -   **Severitate:** Scăzută
+    -   **Priority:** Low
+    -   **Severity:** Low
 9.  **The platform doesn't utilize unique and time-bound tokens for user identification during sessions**
-    -   **Prioritate:** Înaltă
-    -   **Severitate:** Înaltă
+    -   **Priority:** High
+    -   **Severity:** High
 10. **The platform doesn't implement session expiration and automatic logout after a period of inactivity**
-    -   **Prioritate:** Înaltă
-    -   **Severitate:** Înaltă
+    -   **Priority:** High
+    -   **Severity:** High
 11. **The platform doesn't limit the number of login attempts a user can make within a specific timeframe**
-    -   **Prioritate:** Înaltă
-    -   **Severitate:** Înaltă
+    -   **Priority:** High
+    -   **Severity:** High
 12. **The platform doesn't use additional checks (e.g. CAPTCHA) to differentiate between legitimate users and bots**
-    -   **Prioritate:** Înaltă
-    -   **Severitate:** Înaltă
+    -   **Priority:** High
+    -   **Severity:** High
 13. **The platform doesn't provide clear and accessible options for users to access and edit their profile information**
-    -   **Prioritate:** Medie
-    -   **Severitate:** Medie
+    -   **Priority:** Medium
+    -   **Severity:** Medium
 14. **The platform doesn't display a list of the user's past orders**
-    -   **Prioritate:** Medie
-    -   **Severitate:** Medie
+    -   **Priority:** Medium
+    -   **Severity:** Medium
 15. **The platform doesn't offer login buttons for the social media platforms**
-    -   **Prioritate:** Medie
-    -   **Severitate:** Medie
+    -   **Priority:** Medium
+    -   **Severity:** Medium
 16. **The platform lacks a 2FA option for account security**
-    -   **Prioritate:** Înaltă
-    -   **Severitate:** Înaltă
+    -   **Priority:** High
+    -   **Severity:** High
 17. **The platform lacks functionality for integrating with the chosen email marketing platform**
-    -   **Prioritate:** Medie
-    -   **Severitate:** Medie
+    -   **Priority:** Medium
+    -   **Severity:** Medium
 18. **The platform doesn't automatically trigger emails based on predefined user actions or purchase history**
-    -   **Prioritate:** Medie
-    -   **Severitate:** Medie
+    -   **Priority:** Medium
+    -   **Severity:** Medium
 19. **The platform doesn't adhere to accessibility best practices**
-    -   **Prioritate:** Înaltă
-    -   **Severitate:** Înaltă
+    -   **Priority:** High
+    -   **Severity:** High
 20. **The platform does not allow users to change the language settings to a language other than the default**
-    -   **Prioritate:** Medie
-    -   **Severitate:** Înaltă
+    -   **Priority:** Medium
+    -   **Severity:** High
 
 Full regression testing is needed on the impacted areas after the bugs are fixed and retesting will be done for every functionality that was previously failed.
 
