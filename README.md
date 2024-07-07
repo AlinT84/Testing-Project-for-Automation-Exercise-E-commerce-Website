@@ -4,7 +4,7 @@ Testing Project for
 
 # Introduction:
 
-The scope of the final project for ITF Manual Testing Course is to use all gained knowledge throught the course and apply them in practice, using a live application.
+The scope of the final project for the ITF Manual Testing Course is to use all gained knowledge through the course and apply them in practice, using a live application.
 
 Application under test: [**Automation Exercise**](https://www.automationexercise.com/) e-commerce website
 
@@ -21,9 +21,9 @@ The below stories were created in Jira and describe the functional specification
 3.  Checkout process
 4.  Signup/Login
 
-Details cand be found at: LINK
+Details can be found at LINK
 
-For this final project were runed tests from following 2 modules:
+For this final project were runed tests from the following 2 modules:
 
 -   Manage items in the shopping cart
 -   Signup/Login
@@ -38,7 +38,7 @@ Here you can find the release that was created for this project:
 
 # Testing process
 
-The test process was performed based on the standard test process as described below.
+The test process was performed based on the standard test process described below.
 
 ## 1.1 Test planning
 
@@ -46,7 +46,7 @@ The Test Plan is designed to describe all details of testing for all the modules
 
 The plan identifies the items to be tested, the features to be tested, the types of testing to be performed, the personnel responsible for testing, the resources and schedule required to complete testing, and the risks associated with the plan.
 
-### 1.1.1. Roles asigned to the project and persons allocated
+### 1.1.1. Roles assigned to the project and persons allocated
 
 -   Project manager – Ion POPESCU
 -   Product owner – Matei TUTUCA
@@ -78,7 +78,7 @@ The plan identifies the items to be tested, the features to be tested, the types
 -   **Usability Testing**: Assess the user experience of key features.
 -   **Cross-Browser Testing**: Verify the site works correctly on different web browsers (Chrome, Firefox, Safari, Edge).
 -   **Responsive Testing**: Ensure the website is responsive and functions correctly on different devices (desktop, tablet, mobile).
--   **Accessibility Testing**: Ensure that platform adhere to accessibility best practices (e.g., proper color contrast, compatibility with screen readers).
+-   **Accessibility Testing**: Ensure that the platform adheres to accessibility best practices (e.g., proper color contrast, compatibility with screen readers).
 -   Localization Testing: Test that the platform supports multiple languages
 
 **Tests not in scope:**
@@ -134,7 +134,7 @@ The plan identifies the items to be tested, the features to be tested, the types
 |-----------------------------------------------------------------------------------------------|------------------|---------------------|-----------------------------------------|
 | Inability to correctly integrate test automation with existing infrastructure.                | 3                | 3                   | 9                                       |
 | Compatibility issues between different versions of the software used.                         | 3                | 2                   | 6                                       |
-| Missing deadlines due to unexpected complexity of functionalities.                            | 4                | 3                   | 12                                      |
+| Missing deadlines due to the unexpected complexity of functionalities.                        | 4                | 3                   | 12                                      |
 | Frequent changes in client requirements that may affect project progress.                     | 3                | 3                   | 9                                       |
 | Insufficient or inadequate human resources for developing and testing automation.             | 4                | 2                   | 8                                       |
 | Lack of access to necessary hardware resources for load testing.                              | 3                | 3                   | 9                                       |
@@ -164,17 +164,17 @@ The plan identifies the items to be tested, the features to be tested, the types
 3.  **Risk:** Discrepancies between products in the cart and those displayed (quantity, prices, images).
     -   **Severity:** Medium
     -   **Probability:** Medium
-    -   **Mitigation Measures:** Periodic verification of data synchronization between the shopping cart and the product database. Implement automatic reconciliation mechanisms for displayed information.
+    -   **Mitigation Measures:** Periodic verification of data synchronization between the shopping cart and the product database. Implement automatic reconciliation mechanisms for the displayed information.
 4.  **Risk:** Missing complete product details in the cart (images, names, prices).
     -   **Severity:** Medium
     -   **Probability:** Medium
     -   **Mitigation Measures:** Ensure data integrity through tests displaying product details in the cart. Consistently monitor images and information associated with each product.
-5.  **Risk:** Checkout process does not consider cart updates (quantities, prices).
+5.  **Risk:** The Checkout process does not consider cart updates (quantities, prices).
     -   **Severity:** Medium
     -   **Probability:** Medium
-    -   **Mitigation Measures:** Thorough testing of the checkout functionality in the context of cart changes. Implement rapid data synchronization mechanisms in real time.
+    -   **Mitigation Measures:** Thorough testing of the checkout functionality in the context of cart changes. Implement rapid data synchronization mechanisms in real-time.
 
-##### Story 4: New User Registration & account management
+##### Story 4: New User Registration & Account Management
 
 1.  **Risk:** Difficulty accessing the registration page.
     -   **Severity:** Medium
@@ -199,7 +199,7 @@ The plan identifies the items to be tested, the features to be tested, the types
 6.  **Risk:** Issues with sending registration confirmation emails.
     -   **Severity:** Medium
     -   **Probability:** Medium
-    -   **Mitigation Measures:** Implement a mechanism to monitor the sending of confirmation emails. Test email sending in a separate test environment.
+    -   **Mitigation Measures:** Implement a mechanism to monitor the sending of confirmation emails. Test email sent in a separate test environment.
 7.  **Risk:** Issues accessing the login page.
     -   **Severity:** Medium
     -   **Probability:** Medium
@@ -241,7 +241,7 @@ The plan identifies the items to be tested, the features to be tested, the types
 | Missing complete product details in the cart (images, names, prices)                      | 3              | 3                 | 9                                 |
 | Checkout process does not consider cart updates (quantities, prices)                      | 3              | 3                 | 9                                 |
 
-###### Story 4: New User Registration & account management
+###### Story 4: New User Registration & Account Management
 
 | Risk                                                        | Severity (1-5) | Probability (1-5) | Priority (Severity x Probability) |
 |-------------------------------------------------------------|----------------|-------------------|-----------------------------------|
@@ -301,16 +301,16 @@ The list of all the test cases created, along with their results can be accessed
 
 ### Story 2: Cart Management
 
--   Verify that the cart display clearly communicates any changes in taxes or other additional charges (e.g., handling fees) that might be applied based on the cart content or user's location.
+-   Verify that the cart display clearly communicates any changes in taxes or other additional charges (e.g., handling fees) that might be applied based on the cart content or the user's location.
 -   Verify that the platform accurately reflects changes in shipping costs within the total price when the cart value falls below the threshold for free shipping offers.
 -   Verify that the cart total price is calculated accurately, considering both the updated quantities of items and any potential changes in their individual prices (e.g., due to variations or promotions).
 -   Verify that the cart total price updates dynamically and accurately whenever there are changes in item quantity or removal of items from the cart.
 -   Verify the platform's behavior when users choose to remove all items from the cart at once.
--   Verify that removing an item from the cart accurately updates the cart content and total price in real-time.
+-   Verify that removing an item from the cart accurately updates the cart content and total price in real time.
 -   Verify that the platform prompts users for confirmation before permanently removing an item from the cart.
 -   Verify that the shopping cart offers users clear and easily accessible options to remove unwanted items from the cart.
 -   Verify that the shopping cart provides appropriate validation messages when users attempt to enter invalid quantities for items (e.g., negative values, exceeding stock limits)
--   Verify that the options for modifying item quantities within the shopping cart function properly and are accessible across different devices (desktop, mobile, tablet).
+-   Verify that the options for modifying item quantities within the shopping cart function properly are accessible across different devices (desktop, mobile, tablet).
 -   Verify that changes made to the quantity of items using the provided options are reflected instantly and accurately in the cart display.
 -   Verify that the shopping cart offers users options to increase or decrease the quantity of each added item.
 -   Verify the platform's behavior when adding the same item multiple times to the cart, with different variations chosen for each addition
@@ -337,7 +337,7 @@ The list of all the test cases created, along with their results can be accessed
 -   Verify that the "Add to Cart" button (or similar button for adding items) is easily identifiable, clickable, and has a clear and concise label
 -   Verify that the "Add to Cart" button is present and functional on all product pages within the platform
 
-### Story 4: New User Registration & account management
+### Story 4: New User Registration & Account Management
 
 -   Verify that error messages are localized for different languages and consider accessibility needs (e.g., color contrast, screen reader compatibility)
 -   Verify that error messages not only identify the problem but also provide clear instructions or suggestions for users to resolve it
@@ -429,7 +429,7 @@ The following elements need to be ready before the test execution phase begins:
 Test cases are executed on the created test Cycle summaries:
 
 -   *Manage items in shopping cart*
--   *Register for an account, log in and manage account features*
+-   *Register for an account, log in, and manage account features*
 
 Bugs have been created based on the failed tests. The complete bug reports can be found here: **(inserati aici fisierul cu bug-urile pe care le-ati identificat)**
 
@@ -568,7 +568,7 @@ The traceability matrix was generated and can be found here: TraceabilityMatrix
 
 ### Test execution chart
 
-Test execution chart was generated and can be found below.
+The test execution chart was generated and can be found below.
 
 ![](media/3e01f54ec8627c9c4dfcedc0a284d9b8.png)
 
