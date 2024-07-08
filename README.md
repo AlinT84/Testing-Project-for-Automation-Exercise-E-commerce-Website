@@ -28,9 +28,7 @@ For this final project were runed tests from following 2 modules:
 
 Below you can find the release that was created for this project , or [HERE](https://github.com/AlinT84/Testing-Project-for-Automation-Exercise-E-commerce-Website/blob/main/reports/test%20conditions.html)
 
-**![](media/6d1f116261b444d5574c8bb18a8e321a.png)**
-
-**![](media/483a7ad80fb54d3b710a61b6f6ff3b2d.png)![](media/63cbcaa17404406f4f8f14555bfa6c04.png)![](media/328aafbb3fffc85f9e025b6ea9b28c05.png)![](media/2f179a4c635a04dcc018df697fa5be92.png)![](media/678acc8c78307b334c22eb171f81b233.png)![](media/930da6095be8b61dacd1f0b96790becb.png)**
+**![](media/6d1f116261b444d5574c8bb18a8e321a.png)![](media/483a7ad80fb54d3b710a61b6f6ff3b2d.png)![](media/63cbcaa17404406f4f8f14555bfa6c04.png)![](media/328aafbb3fffc85f9e025b6ea9b28c05.png)![](media/2f179a4c635a04dcc018df697fa5be92.png)![](media/678acc8c78307b334c22eb171f81b233.png)![](media/930da6095be8b61dacd1f0b96790becb.png)**
 
 # Testing process
 
