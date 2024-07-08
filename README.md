@@ -42,7 +42,7 @@ The Test Plan is designed to describe all details of testing for all the modules
 
 The plan identifies the items to be tested, the features to be tested, the types of testing to be performed, the personnel responsible for testing, the resources and schedule required to complete testing, and the risks associated with the plan.
 
-### 1.1.1. Roles asigned to the project and persons allocated
+### 1.1.1. Roles assigned to the project and persons allocated
 
 -   Project manager – Ion POPESCU
 -   Product owner – Matei TUTUCA
@@ -74,7 +74,7 @@ The plan identifies the items to be tested, the features to be tested, the types
 -   **Usability Testing**: Assess the user experience of key features.
 -   **Cross-Browser Testing**: Verify the site works correctly on different web browsers (Chrome, Firefox, Safari, Edge).
 -   **Responsive Testing**: Ensure the website is responsive and functions correctly on different devices (desktop, tablet, mobile).
--   **Accessibility Testing**: Ensure that platform adhere to accessibility best practices (e.g., proper color contrast, compatibility with screen readers).
+-   **Accessibility Testing**: Ensure that the platform adheres to accessibility best practices (e.g., proper color contrast, compatibility with screen readers).
 -   Localization Testing: Test that the platform supports multiple languages
 
 **Tests not in scope:**
@@ -160,17 +160,17 @@ The plan identifies the items to be tested, the features to be tested, the types
 3.  **Risk:** Discrepancies between products in the cart and those displayed (quantity, prices, images).
     -   **Severity:** Medium
     -   **Probability:** Medium
-    -   **Mitigation Measures:** Periodic verification of data synchronization between the shopping cart and the product database. Implement automatic reconciliation mechanisms for displayed information.
+    -   **Mitigation Measures:** Periodic verification of data synchronization between the shopping cart and the product database. Implement automatic reconciliation mechanisms for the displayed information.
 4.  **Risk:** Missing complete product details in the cart (images, names, prices).
     -   **Severity:** Medium
     -   **Probability:** Medium
     -   **Mitigation Measures:** Ensure data integrity through tests displaying product details in the cart. Consistently monitor images and information associated with each product.
-5.  **Risk:** Checkout process does not consider cart updates (quantities, prices).
+5.  **Risk:** The checkout process does not consider cart updates (quantities, prices).
     -   **Severity:** Medium
     -   **Probability:** Medium
-    -   **Mitigation Measures:** Thorough testing of the checkout functionality in the context of cart changes. Implement rapid data synchronization mechanisms in real time.
+    -   **Mitigation Measures:** Thorough testing of the checkout functionality in the context of cart changes. Implement rapid data synchronization mechanisms in real-time.
 
-##### Story 4: New User Registration & account management
+##### Story 4: New User Registration & Account Management
 
 1.  **Risk:** Difficulty accessing the registration page.
     -   **Severity:** Medium
@@ -237,7 +237,7 @@ The plan identifies the items to be tested, the features to be tested, the types
 | Missing complete product details in the cart (images, names, prices)                      | 3              | 3                 | 9                                 |
 | Checkout process does not consider cart updates (quantities, prices)                      | 3              | 3                 | 9                                 |
 
-###### Story 4: New User Registration & account management
+###### Story 4: New User Registration & Account Management
 
 | Risk                                                        | Severity (1-5) | Probability (1-5) | Priority (Severity x Probability) |
 |-------------------------------------------------------------|----------------|-------------------|-----------------------------------|
@@ -279,7 +279,7 @@ Monitoring and control ensure that testing progresses according to plan and any 
 
 The testing process will be executed based on the application requirements
 
-The following are some examples of test conditions, which can also be seen [HERE](Testing-Project-for-Automation-Exercise-E-commerce-Website/reports/test%20conditions.html):
+The following are some examples of test conditions, which can also be seen [HERE](https://github.com/AlinT84/Testing-Project-for-Automation-Exercise-E-commerce-Website/blob/main/reports/test%20conditions.html):
 
 ![](media/5609d8f3556a40fb5a123e38efda3016.png)
 
@@ -289,16 +289,16 @@ The following are some examples of test conditions, which can also be seen [HERE
 
 Functional test cases were created in Zephyr Squad based on the analysis of the specifications. These test cases cover various aspects of the project and are used to assess its correctness and performance for the platform functionalities.
 
-The list of all the test cases created, along with their results can be accessed [HERE](Testing-Project-for-Automation-Exercise-E-commerce-Website/reports/test%20cases.html).
+The list of all the test cases created, along with their results can be accessed [HERE](https://github.com/AlinT84/Testing-Project-for-Automation-Exercise-E-commerce-Website/blob/main/reports/test%20cases.html).
 
 ### Story 2: Cart Management
 
--   Verify that the cart display clearly communicates any changes in taxes or other additional charges (e.g., handling fees) that might be applied based on the cart content or user's location.
+-   Verify that the cart display clearly communicates any changes in taxes or other additional charges (e.g., handling fees) that might be applied based on the cart content or the user's location.
 -   Verify that the platform accurately reflects changes in shipping costs within the total price when the cart value falls below the threshold for free shipping offers.
 -   Verify that the cart total price is calculated accurately, considering both the updated quantities of items and any potential changes in their individual prices (e.g., due to variations or promotions).
 -   Verify that the cart total price updates dynamically and accurately whenever there are changes in item quantity or removal of items from the cart.
 -   Verify the platform's behavior when users choose to remove all items from the cart at once.
--   Verify that removing an item from the cart accurately updates the cart content and total price in real-time.
+-   Verify that removing an item from the cart accurately updates the cart content and total price in real time.
 -   Verify that the platform prompts users for confirmation before permanently removing an item from the cart.
 -   Verify that the shopping cart offers users clear and easily accessible options to remove unwanted items from the cart.
 -   Verify that the shopping cart provides appropriate validation messages when users attempt to enter invalid quantities for items (e.g., negative values, exceeding stock limits)
@@ -421,9 +421,9 @@ The following elements need to be ready before the test execution phase begins:
 Test cases are executed on the created test Cycle summaries:
 
 -   *Manage items in shopping cart*
--   *Register for an account, log in and manage account features*
+-   *Register for an account, log in, and manage account features*
 
-Bugs have been created based on the failed tests. The complete bug reports can be found [HERE](Testing-Project-for-Automation-Exercise-E-commerce-Website/reports/bugs.html).
+Bugs have been created based on the failed tests. The complete bug reports can be found [HERE](https://github.com/AlinT84/Testing-Project-for-Automation-Exercise-E-commerce-Website/blob/main/reports/bugs.html).
 
 The following is a summary of the bugs that have been found for:
 
@@ -550,7 +550,7 @@ Full regression testing is needed on the impacted areas after the bugs are fixed
 
 ### Traceability Matrix
 
-The traceability matrix was generated and can be found here: [Traceability Matrix](Testing-Project-for-Automation-Exercise-E-commerce-Website/reports/Forward%20Traceability%20Matrix.xlsx)
+The traceability matrix was generated and can be found here: [Traceability Matrix](https://github.com/AlinT84/Testing-Project-for-Automation-Exercise-E-commerce-Website/blob/main/reports/Forward%20Traceability%20Matrix.xlsx)
 
 ![](media/32bee2c03424bfe08f3629dd1ba75d58.png)
 
@@ -560,7 +560,7 @@ The traceability matrix was generated and can be found here: [Traceability Matri
 
 ### Test execution chart
 
-Test execution chart was generated and can be found below.
+A test execution chart was generated and can be found below.
 
 ![](media/3e01f54ec8627c9c4dfcedc0a284d9b8.png)
 
