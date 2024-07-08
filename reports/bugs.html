@@ -1,0 +1,871 @@
+<html
+        xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<title>Jira</title>
+<style type="text/css">
+table {
+    mso-displayed-decimal-separator:"\.";
+    mso-displayed-thousand-separator:"\,";
+}
+body
+{
+    margin: 0px;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    color:black;
+}
+
+</style>
+<META HTTP-EQUIV="Content-Type" Content="application/vnd.ms-excel; charset=UTF-8">
+<!-- JRA-7598 - ensure fields (e.g. description) occupy only one cell - even fields containing newlines. -->
+<!--
+Vertical align all cells to the top, in order to align all issue rows of issuetable to the top,
+since Excel does not use or save the css files it is hardcoded here.
+-->
+<style>
+@page
+{
+mso-page-orientation:landscape;
+margin:.25in .25in .5in .25in;
+mso-header-margin:.5in;
+mso-footer-margin:.25in;
+mso-footer-data:"&R&P of &N";
+mso-horizontal-page-align:center;
+mso-vertical-page-align:center;
+}
+
+td.issuekey,
+td.issuetype,
+td.status {
+    mso-style-parent: "";
+    mso-number-format: \@;
+    text-align: left;
+}
+br
+{
+    mso-data-placement:same-cell;
+}
+
+td
+{
+    vertical-align: top;
+}
+</style>
+
+<!--[if gte mso 9]><xml>
+<x:ExcelWorkbook>
+<x:ExcelWorksheets>
+<x:ExcelWorksheet>
+<x:Name>general_report</x:Name>
+<x:WorksheetOptions>
+<x:Print>
+<x:ValidPrinterInfo/>
+</x:Print>
+</x:WorksheetOptions>
+</x:ExcelWorksheet>
+</x:ExcelWorksheets>
+</x:ExcelWorkbook>
+</xml><![endif]-->
+</head>
+<body>
+
+<table border="1">
+    <tr bgcolor="#205081" height="30">
+        <td colspan="5">
+            <img src="https://itfclasses.atlassian.net/images/icon-jira-family-logo.png" width="57" height="30" border="0" alt="Jira">
+        </td>
+    </tr>
+    <tr>
+        <td colspan="5">
+            <a href="https://itfclasses.atlassian.net/issues/?jql=project+%3D+%22TMTA20AT%22+AND+type+%3D+Bug+AND+%22epic+link%22+%3D+TMTA20AT-83+ORDER+BY+key+ASC%2C+created+DESC">Jira</a>
+        </td>
+    </tr>
+    <tr>
+                <td colspan="5">
+            Displaying <strong>37</strong> issues.
+        </td>
+    </tr>
+</table>
+
+
+
+
+                                        <table id="issuetable" class="aui " border="1" cellpadding="3" cellspacing="1" width="100%">
+                        <thead>
+        <tr class="rowHeader">
+            
+                                                            <th class="colHeaderLink headerrow-issuetype" data-id="issuetype">
+                                                        Issue Type
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-priority" data-id="priority">
+                                                        Priority
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-issuekey" data-id="issuekey">
+                                                        Key
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-summary" data-id="summary">
+                                                        Summary
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-statusCategory" data-id="statusCategory">
+                                                        Status Category
+                                                    </th>
+                                                                    </tr>
+    </thead>
+    <tbody>
+                    
+
+                <tr id="issuerow19223" rel="19223" data-issuekey="TMTA20AT-388" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="TMTA20AT-388" href="https://itfclasses.atlassian.net/browse/TMTA20AT-388">TMTA20AT-388</a>
+</td>
+                                            <td class="summary"><p>
+                Password field doesn&#39;t have additional info
+    </p>
+</td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-blue-gray
+            jira-issue-status-lozenge-max-width-medium">To Do</span>
+</td>
+                    </tr>
+
+
+                <tr id="issuerow19224" rel="19224" data-issuekey="TMTA20AT-389" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="TMTA20AT-389" href="https://itfclasses.atlassian.net/browse/TMTA20AT-389">TMTA20AT-389</a>
+</td>
+                                            <td class="summary"><p>
+                Mobile Number field doesn&#39;t have additional format info
+    </p>
+</td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-blue-gray
+            jira-issue-status-lozenge-max-width-medium">To Do</span>
+</td>
+                    </tr>
+
+
+                <tr id="issuerow19225" rel="19225" data-issuekey="TMTA20AT-390" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="TMTA20AT-390" href="https://itfclasses.atlassian.net/browse/TMTA20AT-390">TMTA20AT-390</a>
+</td>
+                                            <td class="summary"><p>
+                Users cannot choose to view their password for confirmation purposes
+    </p>
+</td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-blue-gray
+            jira-issue-status-lozenge-max-width-medium">To Do</span>
+</td>
+                    </tr>
+
+
+                <tr id="issuerow19251" rel="19251" data-issuekey="TMTA20AT-391" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="TMTA20AT-391" href="https://itfclasses.atlassian.net/browse/TMTA20AT-391">TMTA20AT-391</a>
+</td>
+                                            <td class="summary"><p>
+                The platform accepts email addresses with obvious formatting errors or invalid symbols.
+    </p>
+</td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-blue-gray
+            jira-issue-status-lozenge-max-width-medium">To Do</span>
+</td>
+                    </tr>
+
+
+                <tr id="issuerow19252" rel="19252" data-issuekey="TMTA20AT-392" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="TMTA20AT-392" href="https://itfclasses.atlassian.net/browse/TMTA20AT-392">TMTA20AT-392</a>
+</td>
+                                            <td class="summary"><p>
+                The platform allows users to create passwords that are too weak (e.g., short, lacking character variation).
+    </p>
+</td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-blue-gray
+            jira-issue-status-lozenge-max-width-medium">To Do</span>
+</td>
+                    </tr>
+
+
+                <tr id="issuerow19254" rel="19254" data-issuekey="TMTA20AT-393" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="TMTA20AT-393" href="https://itfclasses.atlassian.net/browse/TMTA20AT-393">TMTA20AT-393</a>
+</td>
+                                            <td class="summary"><p>
+                The platform doesn&#39;t display an error message regarding password complexity
+    </p>
+</td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-blue-gray
+            jira-issue-status-lozenge-max-width-medium">To Do</span>
+</td>
+                    </tr>
+
+
+                <tr id="issuerow19255" rel="19255" data-issuekey="TMTA20AT-394" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="TMTA20AT-394" href="https://itfclasses.atlassian.net/browse/TMTA20AT-394">TMTA20AT-394</a>
+</td>
+                                            <td class="summary"><p>
+                No confirmation email is sent after successful registration.
+    </p>
+</td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-blue-gray
+            jira-issue-status-lozenge-max-width-medium">To Do</span>
+</td>
+                    </tr>
+
+
+                <tr id="issuerow19256" rel="19256" data-issuekey="TMTA20AT-395" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="TMTA20AT-395" href="https://itfclasses.atlassian.net/browse/TMTA20AT-395">TMTA20AT-395</a>
+</td>
+                                            <td class="summary"><p>
+                The login form doesn&#39;t offer a password visibility toggle
+    </p>
+</td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-blue-gray
+            jira-issue-status-lozenge-max-width-medium">To Do</span>
+</td>
+                    </tr>
+
+
+                <tr id="issuerow19257" rel="19257" data-issuekey="TMTA20AT-396" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="TMTA20AT-396" href="https://itfclasses.atlassian.net/browse/TMTA20AT-396">TMTA20AT-396</a>
+</td>
+                                            <td class="summary"><p>
+                The platform doesn&#39;t utilize unique and time-bound tokens for user identification during sessions
+    </p>
+</td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-blue-gray
+            jira-issue-status-lozenge-max-width-medium">To Do</span>
+</td>
+                    </tr>
+
+
+                <tr id="issuerow19258" rel="19258" data-issuekey="TMTA20AT-397" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="TMTA20AT-397" href="https://itfclasses.atlassian.net/browse/TMTA20AT-397">TMTA20AT-397</a>
+</td>
+                                            <td class="summary"><p>
+                The platform doesn&#39;t implement session expiration and automatic logout after a period of inactivity
+    </p>
+</td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-blue-gray
+            jira-issue-status-lozenge-max-width-medium">To Do</span>
+</td>
+                    </tr>
+
+
+                <tr id="issuerow19259" rel="19259" data-issuekey="TMTA20AT-398" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="TMTA20AT-398" href="https://itfclasses.atlassian.net/browse/TMTA20AT-398">TMTA20AT-398</a>
+</td>
+                                            <td class="summary"><p>
+                The platform doesn&#39;t limit the number of login attempts a user can make within a specific timeframe
+    </p>
+</td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-blue-gray
+            jira-issue-status-lozenge-max-width-medium">To Do</span>
+</td>
+                    </tr>
+
+
+                <tr id="issuerow19260" rel="19260" data-issuekey="TMTA20AT-399" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="TMTA20AT-399" href="https://itfclasses.atlassian.net/browse/TMTA20AT-399">TMTA20AT-399</a>
+</td>
+                                            <td class="summary"><p>
+                The platform doesn&#39;t use additional checks (e.g. CAPTCHA) to differentiate between legitimate users and bots
+    </p>
+</td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-blue-gray
+            jira-issue-status-lozenge-max-width-medium">To Do</span>
+</td>
+                    </tr>
+
+
+                <tr id="issuerow19261" rel="19261" data-issuekey="TMTA20AT-400" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="TMTA20AT-400" href="https://itfclasses.atlassian.net/browse/TMTA20AT-400">TMTA20AT-400</a>
+</td>
+                                            <td class="summary"><p>
+                The platform doesn&#39;t provide clear and accessible options for users to access and edit their profile information
+    </p>
+</td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-blue-gray
+            jira-issue-status-lozenge-max-width-medium">To Do</span>
+</td>
+                    </tr>
+
+
+                <tr id="issuerow19263" rel="19263" data-issuekey="TMTA20AT-401" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="TMTA20AT-401" href="https://itfclasses.atlassian.net/browse/TMTA20AT-401">TMTA20AT-401</a>
+</td>
+                                            <td class="summary"><p>
+                The platform doesn&#39;t display a list of the user&#39;s past orders
+    </p>
+</td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-blue-gray
+            jira-issue-status-lozenge-max-width-medium">To Do</span>
+</td>
+                    </tr>
+
+
+                <tr id="issuerow19303" rel="19303" data-issuekey="TMTA20AT-402" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="TMTA20AT-402" href="https://itfclasses.atlassian.net/browse/TMTA20AT-402">TMTA20AT-402</a>
+</td>
+                                            <td class="summary"><p>
+                The platform doesn&#39;t offer login buttons for the social media platforms
+    </p>
+</td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-blue-gray
+            jira-issue-status-lozenge-max-width-medium">To Do</span>
+</td>
+                    </tr>
+
+
+                <tr id="issuerow19304" rel="19304" data-issuekey="TMTA20AT-403" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="TMTA20AT-403" href="https://itfclasses.atlassian.net/browse/TMTA20AT-403">TMTA20AT-403</a>
+</td>
+                                            <td class="summary"><p>
+                The platform lacks a 2FA option for account security
+    </p>
+</td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-blue-gray
+            jira-issue-status-lozenge-max-width-medium">To Do</span>
+</td>
+                    </tr>
+
+
+                <tr id="issuerow19305" rel="19305" data-issuekey="TMTA20AT-404" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="TMTA20AT-404" href="https://itfclasses.atlassian.net/browse/TMTA20AT-404">TMTA20AT-404</a>
+</td>
+                                            <td class="summary"><p>
+                The platform lacks functionality for integrating with the chosen email marketing platform
+    </p>
+</td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-blue-gray
+            jira-issue-status-lozenge-max-width-medium">To Do</span>
+</td>
+                    </tr>
+
+
+                <tr id="issuerow19306" rel="19306" data-issuekey="TMTA20AT-405" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="TMTA20AT-405" href="https://itfclasses.atlassian.net/browse/TMTA20AT-405">TMTA20AT-405</a>
+</td>
+                                            <td class="summary"><p>
+                The platform doesn&#39;t automatically trigger emails based on predefined user actions or purchase history
+    </p>
+</td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-blue-gray
+            jira-issue-status-lozenge-max-width-medium">To Do</span>
+</td>
+                    </tr>
+
+
+                <tr id="issuerow19307" rel="19307" data-issuekey="TMTA20AT-406" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="TMTA20AT-406" href="https://itfclasses.atlassian.net/browse/TMTA20AT-406">TMTA20AT-406</a>
+</td>
+                                            <td class="summary"><p>
+                The platform doesn&#39;t adhere to accessibility best practices
+    </p>
+</td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-blue-gray
+            jira-issue-status-lozenge-max-width-medium">To Do</span>
+</td>
+                    </tr>
+
+
+                <tr id="issuerow19308" rel="19308" data-issuekey="TMTA20AT-407" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="TMTA20AT-407" href="https://itfclasses.atlassian.net/browse/TMTA20AT-407">TMTA20AT-407</a>
+</td>
+                                            <td class="summary"><p>
+                The platform does not allow users to change the language settings to a language other than the default.
+    </p>
+</td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-blue-gray
+            jira-issue-status-lozenge-max-width-medium">To Do</span>
+</td>
+                    </tr>
+
+
+                <tr id="issuerow19310" rel="19310" data-issuekey="TMTA20AT-409" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="TMTA20AT-409" href="https://itfclasses.atlassian.net/browse/TMTA20AT-409">TMTA20AT-409</a>
+</td>
+                                            <td class="summary"><p>
+                The platform doesn&#39;t provide a way of selecting quantities using the drop-down menu
+    </p>
+</td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-blue-gray
+            jira-issue-status-lozenge-max-width-medium">To Do</span>
+</td>
+                    </tr>
+
+
+                <tr id="issuerow19313" rel="19313" data-issuekey="TMTA20AT-410" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="TMTA20AT-410" href="https://itfclasses.atlassian.net/browse/TMTA20AT-410">TMTA20AT-410</a>
+</td>
+                                            <td class="summary"><p>
+                The platform doesn&#39;t offer users the option that should prevent selecting a quantity below the minimum limit
+    </p>
+</td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-blue-gray
+            jira-issue-status-lozenge-max-width-medium">To Do</span>
+</td>
+                    </tr>
+
+
+                <tr id="issuerow19315" rel="19315" data-issuekey="TMTA20AT-411" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="TMTA20AT-411" href="https://itfclasses.atlassian.net/browse/TMTA20AT-411">TMTA20AT-411</a>
+</td>
+                                            <td class="summary"><p>
+                The platform doesn&#39;t prevent users to enter a non-numeric character in the quantity input field.
+    </p>
+</td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-blue-gray
+            jira-issue-status-lozenge-max-width-medium">To Do</span>
+</td>
+                    </tr>
+
+
+                <tr id="issuerow19316" rel="19316" data-issuekey="TMTA20AT-412" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="TMTA20AT-412" href="https://itfclasses.atlassian.net/browse/TMTA20AT-412">TMTA20AT-412</a>
+</td>
+                                            <td class="summary"><p>
+                The platform doesn&#39;t prevent submitting a negative number in the quantity input field
+    </p>
+</td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-blue-gray
+            jira-issue-status-lozenge-max-width-medium">To Do</span>
+</td>
+                    </tr>
+
+
+                <tr id="issuerow19317" rel="19317" data-issuekey="TMTA20AT-413" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="TMTA20AT-413" href="https://itfclasses.atlassian.net/browse/TMTA20AT-413">TMTA20AT-413</a>
+</td>
+                                            <td class="summary"><p>
+                The platform doesn&#39;t prevent submitting a value with decimals
+    </p>
+</td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-blue-gray
+            jira-issue-status-lozenge-max-width-medium">To Do</span>
+</td>
+                    </tr>
+
+
+                <tr id="issuerow19318" rel="19318" data-issuekey="TMTA20AT-414" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="TMTA20AT-414" href="https://itfclasses.atlassian.net/browse/TMTA20AT-414">TMTA20AT-414</a>
+</td>
+                                            <td class="summary"><p>
+                The cart icon/indicator doesn&#39;t reflect the addition of an item to the cart
+    </p>
+</td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-blue-gray
+            jira-issue-status-lozenge-max-width-medium">To Do</span>
+</td>
+                    </tr>
+
+
+                <tr id="issuerow19319" rel="19319" data-issuekey="TMTA20AT-415" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="TMTA20AT-415" href="https://itfclasses.atlassian.net/browse/TMTA20AT-415">TMTA20AT-415</a>
+</td>
+                                            <td class="summary"><p>
+                The cart icon/indicator doesn&#39;t display a small image or icon representing the added product.
+    </p>
+</td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-blue-gray
+            jira-issue-status-lozenge-max-width-medium">To Do</span>
+</td>
+                    </tr>
+
+
+                <tr id="issuerow19320" rel="19320" data-issuekey="TMTA20AT-416" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="TMTA20AT-416" href="https://itfclasses.atlassian.net/browse/TMTA20AT-416">TMTA20AT-416</a>
+</td>
+                                            <td class="summary"><p>
+                The products on the platform don&#39;t have variations (color, size, etc.)
+    </p>
+</td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-blue-gray
+            jira-issue-status-lozenge-max-width-medium">To Do</span>
+</td>
+                    </tr>
+
+
+                <tr id="issuerow19321" rel="19321" data-issuekey="TMTA20AT-417" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="TMTA20AT-417" href="https://itfclasses.atlassian.net/browse/TMTA20AT-417">TMTA20AT-417</a>
+</td>
+                                            <td class="summary"><p>
+                The cart doesn&#39;t display a grand total price for all the items and quantities from it.
+    </p>
+</td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-blue-gray
+            jira-issue-status-lozenge-max-width-medium">To Do</span>
+</td>
+                    </tr>
+
+
+                <tr id="issuerow19322" rel="19322" data-issuekey="TMTA20AT-418" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="TMTA20AT-418" href="https://itfclasses.atlassian.net/browse/TMTA20AT-418">TMTA20AT-418</a>
+</td>
+                                            <td class="summary"><p>
+                The cart doesn&#39;t offer users the possibility to modify the quantity of the added item
+    </p>
+</td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-blue-gray
+            jira-issue-status-lozenge-max-width-medium">To Do</span>
+</td>
+                    </tr>
+
+
+                <tr id="issuerow19323" rel="19323" data-issuekey="TMTA20AT-419" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="TMTA20AT-419" href="https://itfclasses.atlassian.net/browse/TMTA20AT-419">TMTA20AT-419</a>
+</td>
+                                            <td class="summary"><p>
+                The cart does not display any information about taxes or additional charges
+    </p>
+</td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-blue-gray
+            jira-issue-status-lozenge-max-width-medium">To Do</span>
+</td>
+                    </tr>
+
+
+                <tr id="issuerow19324" rel="19324" data-issuekey="TMTA20AT-420" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="TMTA20AT-420" href="https://itfclasses.atlassian.net/browse/TMTA20AT-420">TMTA20AT-420</a>
+</td>
+                                            <td class="summary"><p>
+                The platform doesn&#39;t display a clear error message indicating that negative values are not allowed.
+    </p>
+</td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-blue-gray
+            jira-issue-status-lozenge-max-width-medium">To Do</span>
+</td>
+                    </tr>
+
+
+                <tr id="issuerow19325" rel="19325" data-issuekey="TMTA20AT-421" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="TMTA20AT-421" href="https://itfclasses.atlassian.net/browse/TMTA20AT-421">TMTA20AT-421</a>
+</td>
+                                            <td class="summary"><p>
+                The platform doesn&#39;t display a clear error message indicating that the chosen quantity is not available due to stock limitations.
+    </p>
+</td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-blue-gray
+            jira-issue-status-lozenge-max-width-medium">To Do</span>
+</td>
+                    </tr>
+
+
+                <tr id="issuerow19326" rel="19326" data-issuekey="TMTA20AT-422" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="TMTA20AT-422" href="https://itfclasses.atlassian.net/browse/TMTA20AT-422">TMTA20AT-422</a>
+</td>
+                                            <td class="summary"><p>
+                The platform doesn&#39;t prompt users for confirmation before permanently removing an item from the cart
+    </p>
+</td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-blue-gray
+            jira-issue-status-lozenge-max-width-medium">To Do</span>
+</td>
+                    </tr>
+
+
+                <tr id="issuerow19327" rel="19327" data-issuekey="TMTA20AT-423" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="TMTA20AT-423" href="https://itfclasses.atlassian.net/browse/TMTA20AT-423">TMTA20AT-423</a>
+</td>
+                                            <td class="summary"><p>
+                The platform doesn&#39;t offer a dedicated &quot;Remove All Items&quot; or &quot;Empty Cart&quot; option.
+    </p>
+</td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-blue-gray
+            jira-issue-status-lozenge-max-width-medium">To Do</span>
+</td>
+                    </tr>
+
+
+                <tr id="issuerow19330" rel="19330" data-issuekey="TMTA20AT-424" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="TMTA20AT-424" href="https://itfclasses.atlassian.net/browse/TMTA20AT-424">TMTA20AT-424</a>
+</td>
+                                            <td class="summary"><p>
+                The platform doesn&#39;t have promotions or discounts that might affect individual item prices.
+    </p>
+</td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-blue-gray
+            jira-issue-status-lozenge-max-width-medium">To Do</span>
+</td>
+                    </tr>
+
+
+                <tr id="issuerow19331" rel="19331" data-issuekey="TMTA20AT-425" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="TMTA20AT-425" href="https://itfclasses.atlassian.net/browse/TMTA20AT-425">TMTA20AT-425</a>
+</td>
+                                            <td class="summary"><p>
+                The platform doesn&#39;t have a minimum cart value for free shipping
+    </p>
+</td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-blue-gray
+            jira-issue-status-lozenge-max-width-medium">To Do</span>
+</td>
+                    </tr>
+        </tbody>
+    </table>
+    <div class="end-of-stable-message"></div>
+            <table border="1" >
+<tr>
+    <td bgcolor="#dddddd" colspan="5"><font size="1">
+        Generated at Mon Jul 08 21:25:57 UTC 2024 by IT Factory using Jira 1001.0.0-SNAPSHOT#100258-rev:122db9bd6b089919e6465ce52fdce319d5a9dfb4.
+    </font></td>
+</tr>
+</table>
+
+</body>
+</html>

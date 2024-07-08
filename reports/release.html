@@ -1,0 +1,551 @@
+<html
+        xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<title>Jira</title>
+<style type="text/css">
+table {
+    mso-displayed-decimal-separator:"\.";
+    mso-displayed-thousand-separator:"\,";
+}
+body
+{
+    margin: 0px;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    color:black;
+}
+
+</style>
+<META HTTP-EQUIV="Content-Type" Content="application/vnd.ms-excel; charset=UTF-8">
+<!-- JRA-7598 - ensure fields (e.g. description) occupy only one cell - even fields containing newlines. -->
+<!--
+Vertical align all cells to the top, in order to align all issue rows of issuetable to the top,
+since Excel does not use or save the css files it is hardcoded here.
+-->
+<style>
+@page
+{
+mso-page-orientation:landscape;
+margin:.25in .25in .5in .25in;
+mso-header-margin:.5in;
+mso-footer-margin:.25in;
+mso-footer-data:"&R&P of &N";
+mso-horizontal-page-align:center;
+mso-vertical-page-align:center;
+}
+
+td.issuekey,
+td.issuetype,
+td.status {
+    mso-style-parent: "";
+    mso-number-format: \@;
+    text-align: left;
+}
+br
+{
+    mso-data-placement:same-cell;
+}
+
+td
+{
+    vertical-align: top;
+}
+</style>
+
+<!--[if gte mso 9]><xml>
+<x:ExcelWorkbook>
+<x:ExcelWorksheets>
+<x:ExcelWorksheet>
+<x:Name>general_report</x:Name>
+<x:WorksheetOptions>
+<x:Print>
+<x:ValidPrinterInfo/>
+</x:Print>
+</x:WorksheetOptions>
+</x:ExcelWorksheet>
+</x:ExcelWorksheets>
+</x:ExcelWorkbook>
+</xml><![endif]-->
+</head>
+<body>
+
+<table border="1">
+    <tr bgcolor="#205081" height="30">
+        <td colspan="5">
+            <img src="https://itfclasses.atlassian.net/images/icon-jira-family-logo.png" width="57" height="30" border="0" alt="Jira">
+        </td>
+    </tr>
+    <tr>
+        <td colspan="5">
+            <a href="https://itfclasses.atlassian.net/issues/?jql=project+%3D+%22TMTA20AT%22+AND+%22epic+link%22+%3D+TMTA20AT-83+AND+type+IN+%28Sub-task%2C+Task%29%0AORDER+BY+key+ASC%2C+created+DESC">Jira</a>
+        </td>
+    </tr>
+    <tr>
+                <td colspan="5">
+            Displaying <strong>21</strong> issues.
+        </td>
+    </tr>
+</table>
+
+
+
+
+                                        <table id="issuetable" class="aui " border="1" cellpadding="3" cellspacing="1" width="100%">
+                        <thead>
+        <tr class="rowHeader">
+            
+                                                            <th class="colHeaderLink headerrow-issuetype" data-id="issuetype">
+                                                        Issue Type
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-priority" data-id="priority">
+                                                        Priority
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-issuekey" data-id="issuekey">
+                                                        Key
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-summary" data-id="summary">
+                                                        Summary
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-statusCategory" data-id="statusCategory">
+                                                        Status Category
+                                                    </th>
+                                                                    </tr>
+    </thead>
+    <tbody>
+                    
+
+                <tr id="issuerow16054" rel="16054" data-issuekey="TMTA20AT-88" class="issuerow">
+                                            <td class="issuetype">    Task
+</td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="TMTA20AT-88" href="https://itfclasses.atlassian.net/browse/TMTA20AT-88">TMTA20AT-88</a>
+</td>
+                                            <td class="summary"><p>
+                As a user, I want to be able to search for products accurately so that I can find what I need quickly and easily
+    </p>
+</td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-blue-gray
+            jira-issue-status-lozenge-max-width-medium">To Do</span>
+</td>
+                    </tr>
+
+
+                <tr id="issuerow16055" rel="16055" data-issuekey="TMTA20AT-89" class="issuerow">
+                                            <td class="issuetype">    Task
+</td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="TMTA20AT-89" href="https://itfclasses.atlassian.net/browse/TMTA20AT-89">TMTA20AT-89</a>
+</td>
+                                            <td class="summary"><p>
+                As a user, I want to be able to filter products based on various criteria, such as category and brands so that I can narrow down my search results and find the products that best meet my needs.
+    </p>
+</td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-blue-gray
+            jira-issue-status-lozenge-max-width-medium">To Do</span>
+</td>
+                    </tr>
+
+
+                <tr id="issuerow16056" rel="16056" data-issuekey="TMTA20AT-90" class="issuerow">
+                                            <td class="issuetype">    Task
+</td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="TMTA20AT-90" href="https://itfclasses.atlassian.net/browse/TMTA20AT-90">TMTA20AT-90</a>
+</td>
+                                            <td class="summary"><p>
+                As a user, I want to see clear and concise product information on listings, including product photo, price, and name so that I can quickly understand what the product is and make informed decisions about my purchase.
+    </p>
+</td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-blue-gray
+            jira-issue-status-lozenge-max-width-medium">To Do</span>
+</td>
+                    </tr>
+
+
+                <tr id="issuerow16057" rel="16057" data-issuekey="TMTA20AT-91" class="issuerow">
+                                            <td class="issuetype">    Task
+</td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="TMTA20AT-91" href="https://itfclasses.atlassian.net/browse/TMTA20AT-91">TMTA20AT-91</a>
+</td>
+                                            <td class="summary"><p>
+                As a user, I want to see product listings divided into manageable pages, so that I can easily browse through long lists of products and find what I&#39;m looking for without feeling overwhelmed.
+    </p>
+</td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-blue-gray
+            jira-issue-status-lozenge-max-width-medium">To Do</span>
+</td>
+                    </tr>
+
+
+                <tr id="issuerow16058" rel="16058" data-issuekey="TMTA20AT-92" class="issuerow">
+                                            <td class="issuetype">    Task
+</td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="TMTA20AT-92" href="https://itfclasses.atlassian.net/browse/TMTA20AT-92">TMTA20AT-92</a>
+</td>
+                                            <td class="summary"><p>
+                As a user, I want to be able to add products to my cart and accurately select the desired quantity, so that I can easily purchase the number of items I need and avoid confusion or errors in my order.
+    </p>
+</td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-blue-gray
+            jira-issue-status-lozenge-max-width-medium">To Do</span>
+</td>
+                    </tr>
+
+
+                <tr id="issuerow16059" rel="16059" data-issuekey="TMTA20AT-93" class="issuerow">
+                                            <td class="issuetype">    Task
+</td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="TMTA20AT-93" href="https://itfclasses.atlassian.net/browse/TMTA20AT-93">TMTA20AT-93</a>
+</td>
+                                            <td class="summary"><p>
+                As a user, I want to see the contents of my shopping cart displayed accurately, including any selected variations (color, size) and their corresponding prices, so that I can review my order details and ensure everything is correct before checkout.
+    </p>
+</td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-blue-gray
+            jira-issue-status-lozenge-max-width-medium">To Do</span>
+</td>
+                    </tr>
+
+
+                <tr id="issuerow16060" rel="16060" data-issuekey="TMTA20AT-94" class="issuerow">
+                                            <td class="issuetype">    Task
+</td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="TMTA20AT-94" href="https://itfclasses.atlassian.net/browse/TMTA20AT-94">TMTA20AT-94</a>
+</td>
+                                            <td class="summary"><p>
+                As a user, I want to be able to modify the items in my shopping cart, including changing the quantity and removing items completely, so that I can adjust my order to my final needs before checkout.
+    </p>
+</td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-blue-gray
+            jira-issue-status-lozenge-max-width-medium">To Do</span>
+</td>
+                    </tr>
+
+
+                <tr id="issuerow16061" rel="16061" data-issuekey="TMTA20AT-95" class="issuerow">
+                                            <td class="issuetype">    Task
+</td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="TMTA20AT-95" href="https://itfclasses.atlassian.net/browse/TMTA20AT-95">TMTA20AT-95</a>
+</td>
+                                            <td class="summary"><p>
+                As a user, I want to experience a clear and user-friendly checkout flow, guiding me through the steps of purchasing my items with minimal confusion or effort, so that I can complete my purchase quickly and efficiently.
+    </p>
+</td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-blue-gray
+            jira-issue-status-lozenge-max-width-medium">To Do</span>
+</td>
+                    </tr>
+
+
+                <tr id="issuerow16062" rel="16062" data-issuekey="TMTA20AT-96" class="issuerow">
+                                            <td class="issuetype">    Task
+</td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="TMTA20AT-96" href="https://itfclasses.atlassian.net/browse/TMTA20AT-96">TMTA20AT-96</a>
+</td>
+                                            <td class="summary"><p>
+                As a user, I want to be able to enter my shipping and billing information accurately and easily, with clear guidance and validation, so that my order is delivered to the correct address and the payment is processed successfully.
+    </p>
+</td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-blue-gray
+            jira-issue-status-lozenge-max-width-medium">To Do</span>
+</td>
+                    </tr>
+
+
+                <tr id="issuerow16063" rel="16063" data-issuekey="TMTA20AT-97" class="issuerow">
+                                            <td class="issuetype">    Task
+</td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="TMTA20AT-97" href="https://itfclasses.atlassian.net/browse/TMTA20AT-97">TMTA20AT-97</a>
+</td>
+                                            <td class="summary"><p>
+                As an unregistered user, I want to be able to complete a purchase without creating an account, so that I can make a one-time purchase quickly and conveniently.
+    </p>
+</td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-blue-gray
+            jira-issue-status-lozenge-max-width-medium">To Do</span>
+</td>
+                    </tr>
+
+
+                <tr id="issuerow16064" rel="16064" data-issuekey="TMTA20AT-98" class="issuerow">
+                                            <td class="issuetype">    Task
+</td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="TMTA20AT-98" href="https://itfclasses.atlassian.net/browse/TMTA20AT-98">TMTA20AT-98</a>
+</td>
+                                            <td class="summary"><p>
+                As a user, I want to be able to easily track my order in real-time and access my order history, so that I can stay informed about the status of my purchases and manage my past orders conveniently.
+    </p>
+</td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-blue-gray
+            jira-issue-status-lozenge-max-width-medium">To Do</span>
+</td>
+                    </tr>
+
+
+                <tr id="issuerow16065" rel="16065" data-issuekey="TMTA20AT-99" class="issuerow">
+                                            <td class="issuetype">    Task
+</td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="TMTA20AT-99" href="https://itfclasses.atlassian.net/browse/TMTA20AT-99">TMTA20AT-99</a>
+</td>
+                                            <td class="summary"><p>
+                As a user, I want to be able to choose from various international shipping options, so that I can receive my order efficiently and conveniently, regardless of my location, at a cost that fits my budget.
+    </p>
+</td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-blue-gray
+            jira-issue-status-lozenge-max-width-medium">To Do</span>
+</td>
+                    </tr>
+
+
+                <tr id="issuerow16066" rel="16066" data-issuekey="TMTA20AT-100" class="issuerow">
+                                            <td class="issuetype">    Task
+</td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="TMTA20AT-100" href="https://itfclasses.atlassian.net/browse/TMTA20AT-100">TMTA20AT-100</a>
+</td>
+                                            <td class="summary"><p>
+                As a user, I want to be able to choose from a variety of secure payment methods, including (credit cards, debit cards, digital wallets, etc.), so that I can complete my purchase using my preferred and convenient payment option.
+    </p>
+</td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-blue-gray
+            jira-issue-status-lozenge-max-width-medium">To Do</span>
+</td>
+                    </tr>
+
+
+                <tr id="issuerow16067" rel="16067" data-issuekey="TMTA20AT-101" class="issuerow">
+                                            <td class="issuetype">    Task
+</td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="TMTA20AT-101" href="https://itfclasses.atlassian.net/browse/TMTA20AT-101">TMTA20AT-101</a>
+</td>
+                                            <td class="summary"><p>
+                As a user, I want the system to verify the accuracy of my billing address when I enter it so that I can be confident my order will be delivered to the correct location and avoid any potential delays or complications.
+    </p>
+</td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-blue-gray
+            jira-issue-status-lozenge-max-width-medium">To Do</span>
+</td>
+                    </tr>
+
+
+                <tr id="issuerow16068" rel="16068" data-issuekey="TMTA20AT-102" class="issuerow">
+                                            <td class="issuetype">    Task
+</td>
+                                            <td class="priority">           Highest
+    </td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="TMTA20AT-102" href="https://itfclasses.atlassian.net/browse/TMTA20AT-102">TMTA20AT-102</a>
+</td>
+                                            <td class="summary"><p>
+                As a user, I want to create an account securely, with my personal information protected, so that I can access additional features and benefits on your platform without compromising my data privacy.
+    </p>
+</td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-blue-gray
+            jira-issue-status-lozenge-max-width-medium">To Do</span>
+</td>
+                    </tr>
+
+
+                <tr id="issuerow16069" rel="16069" data-issuekey="TMTA20AT-103" class="issuerow">
+                                            <td class="issuetype">    Task
+</td>
+                                            <td class="priority">           Highest
+    </td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="TMTA20AT-103" href="https://itfclasses.atlassian.net/browse/TMTA20AT-103">TMTA20AT-103</a>
+</td>
+                                            <td class="summary"><p>
+                As a user, I want to be able to log in to my account securely, with strong authentication methods and protection against unauthorized access, so that I can access my information and manage my account with confidence.
+    </p>
+</td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-blue-gray
+            jira-issue-status-lozenge-max-width-medium">To Do</span>
+</td>
+                    </tr>
+
+
+                <tr id="issuerow16071" rel="16071" data-issuekey="TMTA20AT-104" class="issuerow">
+                                            <td class="issuetype">    Task
+</td>
+                                            <td class="priority">           Highest
+    </td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="TMTA20AT-104" href="https://itfclasses.atlassian.net/browse/TMTA20AT-104">TMTA20AT-104</a>
+</td>
+                                            <td class="summary"><p>
+                As a user, once I&#39;m logged in, I want to be able to easily manage my account information, including (profile updates, password changes, etc.), so that I can keep my information accurate and control my preferences.
+    </p>
+</td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-blue-gray
+            jira-issue-status-lozenge-max-width-medium">To Do</span>
+</td>
+                    </tr>
+
+
+                <tr id="issuerow16072" rel="16072" data-issuekey="TMTA20AT-105" class="issuerow">
+                                            <td class="issuetype">    Task
+</td>
+                                            <td class="priority">           Highest
+    </td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="TMTA20AT-105" href="https://itfclasses.atlassian.net/browse/TMTA20AT-105">TMTA20AT-105</a>
+</td>
+                                            <td class="summary"><p>
+                As a user, I want to be able to login to my account using my existing social media credentials from platforms like (Google, Facebook, etc.), so that I can access the platform conveniently and securely without creating a separate account.
+    </p>
+</td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-blue-gray
+            jira-issue-status-lozenge-max-width-medium">To Do</span>
+</td>
+                    </tr>
+
+
+                <tr id="issuerow16073" rel="16073" data-issuekey="TMTA20AT-106" class="issuerow">
+                                            <td class="issuetype">    Task
+</td>
+                                            <td class="priority">           Highest
+    </td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="TMTA20AT-106" href="https://itfclasses.atlassian.net/browse/TMTA20AT-106">TMTA20AT-106</a>
+</td>
+                                            <td class="summary"><p>
+                As a user, I want to be able to enable two-factor authentication (2FA) for my account, so that I can add an extra layer of security and significantly reduce the risk of unauthorized access, even if my password is compromised.
+    </p>
+</td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-blue-gray
+            jira-issue-status-lozenge-max-width-medium">To Do</span>
+</td>
+                    </tr>
+
+
+                <tr id="issuerow16078" rel="16078" data-issuekey="TMTA20AT-107" class="issuerow">
+                                            <td class="issuetype">    Task
+</td>
+                                            <td class="priority">           Highest
+    </td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="TMTA20AT-107" href="https://itfclasses.atlassian.net/browse/TMTA20AT-107">TMTA20AT-107</a>
+</td>
+                                            <td class="summary"><p>
+                As a platform user, I want personalized email communication based on my preferences, so I stay informed about relevant updates and offers without information overload.
+    </p>
+</td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-blue-gray
+            jira-issue-status-lozenge-max-width-medium">To Do</span>
+</td>
+                    </tr>
+
+
+                <tr id="issuerow16082" rel="16082" data-issuekey="TMTA20AT-108" class="issuerow">
+                                            <td class="issuetype">    Task
+</td>
+                                            <td class="priority">           Highest
+    </td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="TMTA20AT-108" href="https://itfclasses.atlassian.net/browse/TMTA20AT-108">TMTA20AT-108</a>
+</td>
+                                            <td class="summary"><p>
+                As a user, I want user-friendly interfaces for registration, login (using username/email and password), and account management (profile and password updates), enabling me to seamlessly access features and maintain secure information.
+    </p>
+</td>
+                                            <td class="statusCategory">
+    <span class="aui-lozenge aui-lozenge-subtle jira-issue-status-lozenge jira-issue-status-lozenge-blue-gray
+            jira-issue-status-lozenge-max-width-medium">To Do</span>
+</td>
+                    </tr>
+        </tbody>
+    </table>
+    <div class="end-of-stable-message"></div>
+            <table border="1" >
+<tr>
+    <td bgcolor="#dddddd" colspan="5"><font size="1">
+        Generated at Mon Jul 08 21:14:16 UTC 2024 by IT Factory using Jira 1001.0.0-SNAPSHOT#100258-rev:122db9bd6b089919e6465ce52fdce319d5a9dfb4.
+    </font></td>
+</tr>
+</table>
+
+</body>
+</html>

@@ -4,7 +4,7 @@ Testing Project for
 
 # Introduction:
 
-The scope of the final project for ITF Manual Testing Course is to use all gained knowledge through the course and apply it in practice, using a live application.
+The scope of the final project for ITF Manual Testing Course is to use all gained knowledge throught the course and apply them in practice, using a live application.
 
 Application under test: [**Automation Exercise**](https://www.automationexercise.com/) e-commerce website
 
@@ -21,20 +21,16 @@ The below stories were created in Jira and describe the functional specification
 3.  Checkout process
 4.  Signup/Login
 
-Details can be found at: LINK
-
-For this final project were run tests from the following 2 modules:
+For this final project were runed tests from following 2 modules:
 
 -   Manage items in the shopping cart
 -   Signup/Login
 
-Here you can find the release that was created for this project:
+Below you can find the release that was created for this project , or [HERE](Testing-Project-for-Automation-Exercise-E-commerce-Website/reports/release.html)
 
-**![](media/0b71c9522c37b13ae2c44dc47b221055.png)**
+**![](media/6d1f116261b444d5574c8bb18a8e321a.png)**
 
-**![](media/4bfc95ed1a24bdfe0fc301a426d3b5c1.png)**
-
-**(inserati aici o poza cu release-ul pe care l-ati creat in jira. Atentie, release-ul nu va contine si teste, ci doar epic-uri, story-uri, task-uri, subtaskuri si bug-uri)**
+**![](media/483a7ad80fb54d3b710a61b6f6ff3b2d.png)![](media/63cbcaa17404406f4f8f14555bfa6c04.png)![](media/328aafbb3fffc85f9e025b6ea9b28c05.png)![](media/2f179a4c635a04dcc018df697fa5be92.png)![](media/678acc8c78307b334c22eb171f81b233.png)![](media/930da6095be8b61dacd1f0b96790becb.png)**
 
 # Testing process
 
@@ -46,7 +42,7 @@ The Test Plan is designed to describe all details of testing for all the modules
 
 The plan identifies the items to be tested, the features to be tested, the types of testing to be performed, the personnel responsible for testing, the resources and schedule required to complete testing, and the risks associated with the plan.
 
-### 1.1.1. Roles assigned to the project and persons allocated
+### 1.1.1. Roles asigned to the project and persons allocated
 
 -   Project manager – Ion POPESCU
 -   Product owner – Matei TUTUCA
@@ -78,7 +74,7 @@ The plan identifies the items to be tested, the features to be tested, the types
 -   **Usability Testing**: Assess the user experience of key features.
 -   **Cross-Browser Testing**: Verify the site works correctly on different web browsers (Chrome, Firefox, Safari, Edge).
 -   **Responsive Testing**: Ensure the website is responsive and functions correctly on different devices (desktop, tablet, mobile).
--   **Accessibility Testing**: Ensure that the platform adheres to accessibility best practices (e.g., proper color contrast, compatibility with screen readers).
+-   **Accessibility Testing**: Ensure that platform adhere to accessibility best practices (e.g., proper color contrast, compatibility with screen readers).
 -   Localization Testing: Test that the platform supports multiple languages
 
 **Tests not in scope:**
@@ -134,7 +130,7 @@ The plan identifies the items to be tested, the features to be tested, the types
 |-----------------------------------------------------------------------------------------------|------------------|---------------------|-----------------------------------------|
 | Inability to correctly integrate test automation with existing infrastructure.                | 3                | 3                   | 9                                       |
 | Compatibility issues between different versions of the software used.                         | 3                | 2                   | 6                                       |
-| Missing deadlines due to the unexpected complexity of functionalities.                            | 4                | 3                   | 12                                      |
+| Missing deadlines due to unexpected complexity of functionalities.                            | 4                | 3                   | 12                                      |
 | Frequent changes in client requirements that may affect project progress.                     | 3                | 3                   | 9                                       |
 | Insufficient or inadequate human resources for developing and testing automation.             | 4                | 2                   | 8                                       |
 | Lack of access to necessary hardware resources for load testing.                              | 3                | 3                   | 9                                       |
@@ -164,17 +160,17 @@ The plan identifies the items to be tested, the features to be tested, the types
 3.  **Risk:** Discrepancies between products in the cart and those displayed (quantity, prices, images).
     -   **Severity:** Medium
     -   **Probability:** Medium
-    -   **Mitigation Measures:** Periodic verification of data synchronization between the shopping cart and the product database. Implement automatic reconciliation mechanisms for the displayed information.
+    -   **Mitigation Measures:** Periodic verification of data synchronization between the shopping cart and the product database. Implement automatic reconciliation mechanisms for displayed information.
 4.  **Risk:** Missing complete product details in the cart (images, names, prices).
     -   **Severity:** Medium
     -   **Probability:** Medium
     -   **Mitigation Measures:** Ensure data integrity through tests displaying product details in the cart. Consistently monitor images and information associated with each product.
-5.  **Risk:** The Checkout process does not consider cart updates (quantities, prices).
+5.  **Risk:** Checkout process does not consider cart updates (quantities, prices).
     -   **Severity:** Medium
     -   **Probability:** Medium
-    -   **Mitigation Measures:** Thorough testing of the checkout functionality in the context of cart changes. Implement rapid data synchronization mechanisms in real-time.
+    -   **Mitigation Measures:** Thorough testing of the checkout functionality in the context of cart changes. Implement rapid data synchronization mechanisms in real time.
 
-##### Story 4: New User Registration & Account Management
+##### Story 4: New User Registration & account management
 
 1.  **Risk:** Difficulty accessing the registration page.
     -   **Severity:** Medium
@@ -241,7 +237,7 @@ The plan identifies the items to be tested, the features to be tested, the types
 | Missing complete product details in the cart (images, names, prices)                      | 3              | 3                 | 9                                 |
 | Checkout process does not consider cart updates (quantities, prices)                      | 3              | 3                 | 9                                 |
 
-###### Story 4: New User Registration & Account Management
+###### Story 4: New User Registration & account management
 
 | Risk                                                        | Severity (1-5) | Probability (1-5) | Priority (Severity x Probability) |
 |-------------------------------------------------------------|----------------|-------------------|-----------------------------------|
@@ -273,8 +269,6 @@ The entry criteria defined in the Test Planning phase have been achieved and the
 
 ## 1.2 Test Monitoring and Control
 
-**(inserati aici motivul pentru care a fost facuta etapa de monitorizare si control si respectiv cum s-a facut aceasta etapa. Aici veti insera de asemenea si raportul de status (test status report) din zephyr - test metrics - primul din lista care sa reflecte activitatea si evolutia testarii. Recomand aici sa executati teste aproape in fiecare zi ca sa vada angajatorul implicarea voastra in testare)**
-
 Monitoring and control ensure that testing progresses according to plan and any deviations are addressed promptly. This includes daily status meetings, progress tracking in Jira, and regular test status reports from Zephyr Squad.
 
 **Test Status Report**: A report from Zephyr reflecting test activities and progress is included below, showing metrics such as tests executed, passed, failed, and blocked.
@@ -283,21 +277,19 @@ Monitoring and control ensure that testing progresses according to plan and any 
 
 ## 1.3 Test Analysis
 
-The testing process will be executed based on the application requirements.
+The testing process will be executed based on the application requirements
 
-The following are some examples of test conditions:
+The following are some examples of test conditions, which can also be seen [HERE](Testing-Project-for-Automation-Exercise-E-commerce-Website/reports/test%20conditions.html):
 
-![](media/b25e4f5befdd85c922bd2baeac4659ec.png)
+![](media/5609d8f3556a40fb5a123e38efda3016.png)
 
-![](media/0e76477ff65a10de8d50edf1a9cee28f.png)
-
-**(aici puteti fie sa puneti o poza din jira cu titlurile tuturor testelor - din issues filtrare dupa type test sau sa scrieti cu bulinuta numele fiecarei conditii de testare pe care ati identificat-o)**
+![](media/c4e6c5f91b8446cec7c963709ece0c84.png)![](media/f3a1ee9111e27035dc4b6e61dcb2b7fb.png)
 
 ## 1.4 Test Design
 
 Functional test cases were created in Zephyr Squad based on the analysis of the specifications. These test cases cover various aspects of the project and are used to assess its correctness and performance for the platform functionalities.
 
-The list of all the test cases created, along with their results can be accessed here **(inserati linkul catre fisierul cu testele, in format pdf, word sau csv)**
+The list of all the test cases created, along with their results can be accessed [HERE](Testing-Project-for-Automation-Exercise-E-commerce-Website/reports/test%20cases.html).
 
 ### Story 2: Cart Management
 
@@ -429,9 +421,9 @@ The following elements need to be ready before the test execution phase begins:
 Test cases are executed on the created test Cycle summaries:
 
 -   *Manage items in shopping cart*
--   *Register for an account, log in, and manage account features*
+-   *Register for an account, log in and manage account features*
 
-Bugs have been created based on the failed tests. The complete bug reports can be found here: **(inserati aici fisierul cu bug-urile pe care le-ati identificat)**
+Bugs have been created based on the failed tests. The complete bug reports can be found [HERE](Testing-Project-for-Automation-Exercise-E-commerce-Website/reports/bugs.html).
 
 The following is a summary of the bugs that have been found for:
 
@@ -558,7 +550,7 @@ Full regression testing is needed on the impacted areas after the bugs are fixed
 
 ### Traceability Matrix
 
-The traceability matrix was generated and can be found here: TraceabilityMatrix
+The traceability matrix was generated and can be found here: [Traceability Matrix](Testing-Project-for-Automation-Exercise-E-commerce-Website/reports/Forward%20Traceability%20Matrix.xlsx)
 
 ![](media/32bee2c03424bfe08f3629dd1ba75d58.png)
 
@@ -568,7 +560,7 @@ The traceability matrix was generated and can be found here: TraceabilityMatrix
 
 ### Test execution chart
 
-The test execution chart was generated and can be found below.
+Test execution chart was generated and can be found below.
 
 ![](media/3e01f54ec8627c9c4dfcedc0a284d9b8.png)
 
