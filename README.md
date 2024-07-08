@@ -26,7 +26,7 @@ For this final project were runed tests from following 2 modules:
 -   Manage items in the shopping cart
 -   Signup/Login
 
-Below you can find the release that was created for this project , or [HERE](reports/test conditions.html)
+Below you can find the release that was created for this project , or [HERE](https://github.com/AlinT84/Testing-Project-for-Automation-Exercise-E-commerce-Website/blob/main/reports/test%20conditions.html)
 
 **![](media/6d1f116261b444d5574c8bb18a8e321a.png)**
 
