@@ -279,9 +279,7 @@ The testing process will be executed based on the application requirements
 
 The following are some examples of test conditions, which can also be seen [HERE](https://github.com/AlinT84/Testing-Project-for-Automation-Exercise-E-commerce-Website/blob/main/reports/test%20conditions.html):
 
-![](media/5609d8f3556a40fb5a123e38efda3016.png)
-
-![](media/c4e6c5f91b8446cec7c963709ece0c84.png)![](media/f3a1ee9111e27035dc4b6e61dcb2b7fb.png)
+![](media/5609d8f3556a40fb5a123e38efda3016.png)![](media/c4e6c5f91b8446cec7c963709ece0c84.png)![](media/f3a1ee9111e27035dc4b6e61dcb2b7fb.png)
 
 ## 1.4 Test Design
 
