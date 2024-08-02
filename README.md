@@ -50,7 +50,6 @@ The plan identifies the items to be tested, the features to be tested, the types
 ### 1.1.2 Entry criteria defined
 
 -   **Requirements**: All functional and non-functional requirements must be clearly defined and approved.
--   **Environment**: The test environment should be fully set up and configured, including all necessary test data.
 -   **Tools**: Jira and Zephyr Squad must be installed, configured, and accessible to the testing team.
 -   **Resources**: All required human resources, including testers and developers, must be available.
 -   **Documentation**: Test plan, test cases, and any necessary documentation must be completed and reviewed.
